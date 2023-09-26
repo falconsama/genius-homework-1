@@ -1,0 +1,142 @@
+@font-face {
+  font-display: swap;
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/play-v19-latin-regular.woff2') format('woff2'),
+    url('../fonts/play-v19-latin-regular.ttf') format('truetype');
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/play-v19-latin-700.woff2') format('woff2'),
+    url('../fonts/play-v19-latin-700.ttf') format('truetype');
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'),
+    url('../fonts/roboto-v30-latin-regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/roboto-v30-latin-700.woff2') format('woff2'),
+    url('../fonts/roboto-v30-latin-700.ttf') format('truetype');
+}
+/* colors */
+:root {
+  --primary-blue: #2b7fff;
+  --primary-darkblue: #011c44;
+  --primarywhite: #ffff;
+  --secondary-gray:#747272;
+}
+/* Base */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--primary-darkblue);
+  line-height: 1.5;
+}
+address {
+  font-style: normal;
+}
+ul {
+  list-style-type: none;
+}
+/* header */
+.link {
+  color: var(--primary-darkblue);
+  font-weight: 700;
+  text-decoration: none;
+}
+.link:hover {
+  color: var(--primary-blue);
+}
+/* hero section */
+/* .hero-text {
+  font-size: 18px;
+} */
+.hero-title {
+  font-family: 'Play', sans-serif;
+  color: var(--primary-blue);
+  font-weight: 700;
+  font-size: 140px;
+  text-align: left;
+}
+.button {
+  cursor: pointer;
+  font-weight: 600;
+  background-color: var(--primarywhite);
+  border: 2px solid var(--primary-blue);
+  border-radius: 32px;
+}
+.button:hover {
+  background-color: var(--primary-blue);
+  color: var(--primarywhite);
+}
+.hero-reg {
+  font-size: 12px;
+  /* text-align: center; */
+}
+.section-title {
+  font-family: 'Play', sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 1.1;
+}
+.section-title .accent {
+  color: var(--primary-blue);
+}
+/* garanties section */
+.garanties-text {
+  font-size: 22px;
+  line-height: 1.72;
+}
+.garanties-text .brand-accent {
+  font-weight: 600;
+}
+/* advantages section */
+.advantages-container {
+  text-align: center;
+}
+.advantages-text {
+  line-height: 1.33;
+}
+/* procedure section */
+.procedures-container {
+  text-align: center;
+}
+.procedure-title {
+  color: var(--primarywhite);
+  font-size: 22px;
+  line-height: 1.18;
+}
+
+.contacts-container {
+  text-align: center;
+}
+
+/* footer */
+.adress-link {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.17;
+  color: var(--primarywhite);
+}
+.adress-link:hover {
+  color: var(--primary-blue);
+}
+.adress-copyright{
+  color: var(--secondary-gray);
+  font-size: 13px;
+  line-height: 1.17;
+}
